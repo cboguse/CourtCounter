@@ -1,0 +1,88 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#ed1c24</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#ed1c24</item>
+    </style>
+
+    <!-- ScrollView Layout style -->
+    <style name="scrollViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/soccerfield</item>
+        <item name="android:paddingBottom">30dp</item>
+    </style>
+
+    <!-- 1st Layout style - Relative Layout -->
+    <style name="relativeLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 2nd Layout style - Linear Layout -->
+    <style name="linearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">75dp</item>
+    </style>
+
+    <!-- 3rd Layout style - Linear Layout - creates column -->
+    <style name="linearLayoutColumnStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Team Name Text Style -->
+    <style name="teamTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Team Score Text Style -->
+    <style name="scoreTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">66sp</item>
+    </style>
+
+    <!-- Score Button Style -->
+    <style name="scoreButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+    </style>
+
+    <!-- Gray Line Style -->
+    <style name="grayLineViewStyle">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <!-- Reset Button Style -->
+    <style name="resetButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+</resources>

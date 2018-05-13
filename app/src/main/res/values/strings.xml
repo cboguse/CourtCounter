@@ -1,0 +1,29 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Soccer Court Counter</string>
+
+    <!-- Team A Name text -->
+    <string name="team_a">Team A</string>
+
+    <!-- Initial Score text for Team A -->
+    <string name="zeroScoreTeamA">0</string>
+
+    <!-- Add 3 point button text for both teams -->
+    <string name="scoreAddThree">3+ Win</string>
+
+    <!-- Add 1 point button text for both teams -->
+    <string name="scoreAddOne">1+ Draw</string>
+
+    <!-- Goal point button text for both teams -->
+    <string name="scoreGoal">Goal</string>
+
+    <!-- Team B Name text -->
+    <string name="team_b">Team B</string>
+
+    <!-- Initial Score text for Team B -->
+    <string name="zeroScoreTeamB">0</string>
+
+    <!-- Rest button text -->
+    <string name="reset">Reset</string>
+
+</resources>
